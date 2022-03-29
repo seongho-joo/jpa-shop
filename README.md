@@ -5,13 +5,12 @@
 
 <details>
 <summary>Table of Contents</summary>
-</details>
 
 - [프로젝트 환경설정](#프로젝트-환경설정)
   - [프로젝트 생성](#프로젝트-생성)
   - [H2 데이터베이스 설치](#h2-데이터베이스-설치)
   - [JPA 및 DB 설정](#jpa-및-db-설정)
-- [도메인 분석 및 설계](#도메인-분석-및-설계)
+</details>
 
 ___
 
