@@ -6,6 +6,7 @@ import javax.persistence.*;
 import jpabook.jpashop.domain.Category;
 import jpabook.jpashop.exception.NotEnoughStockException;
 import lombok.Getter;
+import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 
 @Entity
@@ -13,6 +14,7 @@ import lombok.Setter;
 @DiscriminatorColumn(name = "dtype")
 @Getter
 @Setter
+@RequiredArgsConstructor
 public abstract class Item {
 
     @Id
