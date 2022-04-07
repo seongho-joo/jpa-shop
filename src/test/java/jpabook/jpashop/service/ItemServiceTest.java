@@ -30,7 +30,7 @@ public class ItemServiceTest {
         item.setPrice(10000);
         item.setStockQuantity(100);
 
-        itemService.save(item);
+        itemService.saveItem(item);
 
         assertThat(itemRepository.findOne(1L)).isEqualTo(item);
     }
